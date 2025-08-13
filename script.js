@@ -4,7 +4,7 @@ console.log("Welcome to Dev's Dev Tools");
 
 // function isAnagram(str1, str2) {
 //     let arr1 = str1.toLowerCase().split("").sort(); // Sort  and split *
-//     let arr2 = str2.toLowerCase().split("").sort(); // To lowercase 
+//     let arr2 = str2.toLowerCase().split("").sort(); // To lowercase
 //     // console.log(arr1, "and", arr2);
 //     if (arr1.length !== arr2.length) {
 //         console.log("Words are of different length");
@@ -13,24 +13,22 @@ console.log("Welcome to Dev's Dev Tools");
 //     for (let i = 0; i < arr1.length; i++) {
 //         if (arr1[i] !== arr2[i]) {
 //             console.log("No they are not Anagram ");
-//             return false; // This is very useful in the loop, it short-circuits loop if any one value mis-match 
+//             return false; // This is very useful in the loop, it short-circuits loop if any one value mis-match
 //         }
-
 //     }
 //     console.log("Yes they are Anagram ")
 //     return true;
-
-
 // };
 // isAnagram("mahxadev", "mahadevx");
 
 //Q2. Find the largest number from an array and return it;
 
-function isLargestNum(arr1) {
-    let sortedArray1 = arr1.sort(function (a, b) { return a - b; });
-    console.log(Number(sortedArray1));
-    console.log(sortedArray1[sortedArray1.length - 1 ], "is the largest number among the array");
-}
-isLargestNum([1, 2, 33, 4, 5, 99,125,131,145]);
+// function isLargestNum(arr1) {
+//     let sortedArray1 = arr1.sort(function (a, b) { return a - b; });
+//     console.log(Number(sortedArray1));
+//     console.log(sortedArray1[sortedArray1.length - 1 ], "is the largest number among the array");
+// }
+// isLargestNum([1, 2, 33, 4, 5, 99,125,131,145]);
 
+//Q3. Count vowels and return number of vowels in the string.
 
