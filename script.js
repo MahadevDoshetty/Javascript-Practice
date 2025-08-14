@@ -45,3 +45,17 @@ console.log("Welcome to Dev's Dev Tools");
 // }
 
 // countVowels('mahadeva');
+
+// Q4. Reverse a string and return it;
+
+// Take input from the user,
+// // And then split those alphabets into an array, and then reverse the order of the arrray and then join the elements inside the array and then convert it into string and display 
+
+// function reverseString(str){
+//     let arrayA = [...str];
+//     let reverseArrayA  = arrayA.reverse();
+//     console.log(reverseArrayA.join(""));
+// };
+// reverseString("Mahadev");
+
+
