@@ -32,3 +32,16 @@ console.log("Welcome to Dev's Dev Tools");
 
 //Q3. Count vowels and return number of vowels in the string.
 
+// function countVowels(str) {
+//     let vowels = ['a', 'e', 'i', 'o', 'u'];
+//     let uniqueVowels = new Set();
+//     for (let char of str.toLowerCase()) {
+//         if (vowels.includes(char)) {
+//             uniqueVowels.add(char);
+//         }
+//     }
+//     console.log(`Unique vowels in '${str}':`, [...uniqueVowels]);
+//     console.log(`Count of unique vowels: ${uniqueVowels.size}`);
+// }
+
+// countVowels('mahadeva');
