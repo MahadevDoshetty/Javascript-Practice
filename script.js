@@ -61,23 +61,25 @@ console.log("Welcome to Dev's Dev Tools");
 // Q5. Find the factorial of a number and return it;
 //As usual, take an input from the user of a number;
 // using a loop we need to reduce the number by 1 and then multiply them //the number should not be negative number and decimal
-function factorial(num1) {
-    let count = 1;
-    let arrayA = [1];
-    if (num1 < 0) {
-        console.log("Only positive integers are allowed");
-        return false;
-    }
-    do {
-        count++;
-        arrayA.push(count);
-    } while (count < num1 && count > 0);
-    console.log(arrayA);
-    const result = arrayA.reduce((acc, num) => acc * num, 1);
-    console.log(`The factorial of ${num1} is :  ${result}`);
-    return result;
-}
+// function factorial(num1) {
+//     let count = 1;
+//     let arrayA = [1];
+//     if (num1 < 0) {
+//         console.log("Only positive integers are allowed");
+//         return false;
+//     }
+//     do {
+//         count++;
+//         arrayA.push(count);
+//     } while (count < num1 && count > 0);
+//     console.log(arrayA);
+//     const result = arrayA.reduce((acc, num) => acc * num, 1);
+//     console.log(`The factorial of ${num1} is :  ${result}`);
+//     return result;
+// }
 
 
-factorial(10);
+// factorial(10);
+
+
 // Q6. Find the sum of all numbers in an array and return it;
