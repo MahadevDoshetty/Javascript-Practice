@@ -83,3 +83,12 @@ console.log("Welcome to Dev's Dev Tools");
 
 
 // Q6. Find the sum of all numbers in an array and return it;
+
+// function sumOfArrayelements(arrA) {
+//     // let arrB = arrA;
+//     let sum = arrA.reduce((acc, num) => acc + num)
+//     console.log(sum);
+// }
+// sumOfArrayelements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+// sumOfArrayelements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]);    
+
