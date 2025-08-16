@@ -49,7 +49,7 @@ console.log("Welcome to Dev's Dev Tools");
 // Q4. Reverse a string and return it;
 
 // Take input from the user,
-// // And then split those alphabets into an array, and then reverse the order of the arrray and then join the elements inside the array and then convert it into string and display 
+// // And then split those alphabets into an array, and then reverse the order of the arrray and then join the elements inside the array and then convert it into string and display
 
 // function reverseString(str){
 //     let arrayA = [...str];
@@ -90,5 +90,21 @@ console.log("Welcome to Dev's Dev Tools");
 //     console.log(sum);
 // }
 // sumOfArrayelements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
-// sumOfArrayelements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]);    
+// sumOfArrayelements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]);
 
+//Random password generator;
+//A password can be a combination of all characters, but it should have atleast 1 Uppercase, 1 Lowercase , 1 Numeric , Any 1 Symbol & 8 characters length.
+
+// function passwordGenerator(length = 8) {
+//     let password = [];
+//     let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+=-`~,<>/?;:'*[]{}|";
+//     for (let i = 0; i < 8; i++) {
+
+//         let index = Math.floor(Math.random() * characters.length);
+//         const a = characters[index];
+//         password.push(a);
+//     }
+//     const result = password.join("");
+//     console.log(`The password generated is : ${result}`);
+// }
+// passwordGenerator();
