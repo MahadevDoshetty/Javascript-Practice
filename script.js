@@ -98,7 +98,7 @@ console.log("Welcome to Dev's Dev Tools");
 // function passwordGenerator(length = 8) {
 //     let password = [];
 //     let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+=-`~,<>/?;:'*[]{}|";
-//     for (let i = 0; i < 8; i++) {
+//     for (let i = 0; i < length; i++) {
 
 //         let index = Math.floor(Math.random() * characters.length);
 //         const a = characters[index];
@@ -107,4 +107,11 @@ console.log("Welcome to Dev's Dev Tools");
 //     const result = password.join("");
 //     console.log(`The password generated is : ${result}`);
 // }
-// passwordGenerator();
+// passwordGenerator(8);
+
+//Q.8. Check if a string is a valid email id?
+// function emailChecker(str) {
+//     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+//     if (regex.test(str)) { console.log(`The ${str} is a valid email address`); } else { console.log(`${str} is an invalid email address`) }
+// }
+// emailChecker("peterZhao@domain.com");
