@@ -117,16 +117,30 @@ console.log("Welcome to Dev's Dev Tools");
 // emailChecker("peterZhao@domain.com");
 
 //Q9. Find the longest word and its length in a sentence;
-function longestWord(str) {
-    const words = str.split(" ");
-    let longest = "";
-    for (let word of words) {
-        if (word.length > longest.length) {
-            longest = word;
-        }
-    }
-    console.log(`The longest word in the sentence "${str})}" is : ${longest} `);
-    console.log(`The length of the longest word is ${longest.length}`);
-};
-longestWord("I am doing nothing but just waiting for something which is nothing");
+// function longestWord(str) {
+//     const words = str.split(" ");
+//     let longest = "";
+//     for (let word of words) {
+//         if (word.length > longest.length) {
+//             longest = word;
+//         }
+//     }
+//     console.log(`The longest word in the sentence "${str})}" is : ${longest} `);
+//     console.log(`The length of the longest word is ${longest.length}`);
+// };
+// longestWord("I am doing nothing but just waiting for something which is nothing");
 
+//Q.10. Check if a string is a palindrome or not.
+// A string is a palindrome when it is symmetrical from both start and end.
+// function isPalindrome(str) {
+//     const strLowerCase = str.toLowerCase().trim();
+//     console.log(strLowerCase);
+//     for (let i = 0; i < strLowerCase.length/2; i++) {
+//         if (strLowerCase[i] !== strLowerCase[strLowerCase.length - 1 - i]) {
+//             console.log(`${str} is not a Palindrome`);
+//             return false;
+//         }
+//     }
+//     console.log(`${str} is a Palindrome`)
+// };
+// isPalindrome("Paap");
