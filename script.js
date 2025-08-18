@@ -115,3 +115,18 @@ console.log("Welcome to Dev's Dev Tools");
 //     if (regex.test(str)) { console.log(`The ${str} is a valid email address`); } else { console.log(`${str} is an invalid email address`) }
 // }
 // emailChecker("peterZhao@domain.com");
+
+//Q9. Find the longest word and its length in a sentence;
+function longestWord(str) {
+    const words = str.split(" ");
+    let longest = "";
+    for (let word of words) {
+        if (word.length > longest.length) {
+            longest = word;
+        }
+    }
+    console.log(`The longest word in the sentence "${str})}" is : ${longest} `);
+    console.log(`The length of the longest word is ${longest.length}`);
+};
+longestWord("I am doing nothing but just waiting for something which is nothing");
+
